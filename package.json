@@ -1,0 +1,15 @@
+{
+    "name": "com.yogi.gamecore",
+    "version": "1.0.0",
+    "displayName": "YogiGameCore",
+    "description": "A simple unity game framework",
+    "keywords": [
+        "game",
+        "framework",
+        "unity"
+    ],
+    "author": {
+        "name": "Yogi",
+        "url": "https://github.com/Yogioo"
+    }
+}

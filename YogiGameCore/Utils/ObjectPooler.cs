@@ -4,13 +4,12 @@ using YogiGameCore.Log;
 
 namespace YogiGameCore.Utils
 {
+    /// <summary>
+    /// 自定义实现的对象池
+    /// 如果是Unity2021以上 可以使用UnityEngine.Pool内的内置对象池功能脚本
+    /// </summary> 
     public class ObjectPooler : MonoSingleton<ObjectPooler>
     {
-        private ObjectPooler()
-        {
-            isGolbal = true;
-        }
-
         [System.Serializable]
         public class Pool
         {
